@@ -1,0 +1,18 @@
+h1{
+    color: pink;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h2{
+    color: rgb(53, 53, 53);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+    color: rgb(88, 88, 88);
+}
+body{
+    color: gray;
+    font-family: 'Karla', sans-serif;
+    
+}

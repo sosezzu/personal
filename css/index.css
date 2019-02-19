@@ -1,0 +1,31 @@
+h1{
+    display:inline;
+    padding: 0px;
+    margin: 0px;
+}
+.textbox{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;    
+  vertical-align:center;
+  background-color:red;
+  color: white;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  color: white;
+}
+@media (max-width: 500px){
+    .textbox{
+       width: 250px;
+    }
+}
+p{
+   color: white;
+}

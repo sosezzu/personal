@@ -1,0 +1,57 @@
+.textbox{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;    
+  vertical-align:center;
+  background-color:red;
+  color: white;
+  padding: 50px 50px 50px 50px;
+  text-align: center;
+}
+@media (max-width: 500px){
+    .textbox{
+       width: 250px;
+    }
+}
+#vertalign{
+     position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 300px;
+     height: 115px;
+      display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction:column;
+}
+.hidden{
+    display: none;
+}
+.button{
+    background-color: red;
+    border: white solid 1px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    align: center;
+    margin: auto;
+    cursor: pointer;
+ }
+.button>a:link,  .button>a:visited, .button>a:hover, .button>a:active{
+     color: white;
+     text-decoration: none;
+     font-family: 'Karla', sans-serif;
+}
+#pink{
+    color:pink;
+    font-size: 12px;
+}
