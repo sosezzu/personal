@@ -1,0 +1,13 @@
+#default index page
+DirectoryIndex "index.html"
+
+#mod_rewrite on
+RewriteEngine on
+
+#Hotlinking Protection
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?sophiasetsu.com/.*$ [NC]
+RewriteRule \.(js|css|jpg|gif|png|bmp|mp4|3gp|m4a|m4r|aac|mp3|ogg|wave)$ - [F]
+
+#html shorterner
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
